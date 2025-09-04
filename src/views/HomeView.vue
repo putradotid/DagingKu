@@ -11,7 +11,14 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="p-6">
+  <section id="home">
+    <div class="p-6 bg-indigo-600 text-white text-center">
+      <h1 class="text-4xl font-bold mb-2">Selamat Datang di DagingKu!</h1>
+      <p class="text-lg">Temukan berbagai resep daging lezat untuk setiap kesempatan.</p>
+    </div>
+  </section>
+
+  <section id="#menu" class="p-6">
     <h1 class="text-2xl font-bold mb-4">🍖 DagingKu - Resep Daging</h1>
 
     <div v-if="mealStore.loading">Loading...</div>
@@ -27,5 +34,28 @@ onMounted(() => {
         <div class="p-2 text-center font-medium">{{ meal.strMeal }}</div>
       </RouterLink>
     </div>
-  </div>
+  </section>
+
+  <section id="blog">
+    <div class="blog">
+      <h1 class="h2">Selamat Datang di DagingKu!</h1>
+      <p class="text">Temukan berbagai resep daging lezat untuk setiap kesempatan.</p>
+    </div>
+  </section>
+  
+  <section id="location">
+    <div class="blog">
+      <h1 class="h2">Selamat Datang di DagingKu!</h1>
+      <p class="text">Temukan berbagai resep daging lezat untuk setiap kesempatan.</p>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <div class="blog">
+      <h1 class="h2">Selamat Datang di DagingKu!</h1>
+      <p class="text">Temukan berbagai resep daging lezat untuk setiap kesempatan.</p>
+    </div>
+  </section>
+
+  <footer></footer>
 </template>
