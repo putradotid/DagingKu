@@ -1,10 +1,20 @@
 <script setup>
 import Navbar from "@/components/Navbar.vue"
+import Home from "@/components/Home.vue"
+import Menu from "@/components/Menu.vue"
+import Blog from "@/components/Blog.vue"
+import Location from "@/components/Location.vue"
+import Contact from "@/components/Contact.vue"
 </script>
 
 <template>
-  <Navbar />
-  <router-view />
+  <Navbar class="Navbar" />
+  <Home />
+  <Menu />
+  <Blog />
+  <Location />
+  <Contact />
+  
 </template>
 
 
@@ -19,6 +29,7 @@ import Navbar from "@/components/Navbar.vue"
   --black-mute: #282828;
 
   --indigo: #2c3e50;
+  --yellow: #ffeb3b;
 
   margin: 0;
   padding: 0;
@@ -37,4 +48,10 @@ body {
   padding: 0;
 }
 
+.Navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 </style>

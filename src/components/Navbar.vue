@@ -3,7 +3,7 @@
         <div class="container">
             <div class="logo">
                 <h1>DagingKu</h1>
-                <img src="../assets/logo.svg" alt="Logo" class="logo-image" />
+                <img src="../assets/fce4a80f11a3b6d1e53e3b234d878b53-removebg-preview.png" alt="Logo" class="logo-image" />
             </div>
             <nav>
                 <div class="nav-links">
@@ -31,6 +31,7 @@
     color: var(--white);
     margin: 0;
     padding: 0;
+    z-index: 5;
 }
 
 .container {
@@ -44,6 +45,7 @@
         display: flex;
         align-items: center;
         margin-left: 20px;
+        border-radius: 50%;
         
         h1 {
             font-size: 1.5rem;
@@ -69,7 +71,7 @@
                 transition: color 0.3s;
 
                 &:hover {
-                    color: var(--indigo);
+                    color: var(--yellow);
                 }
             }
         }
