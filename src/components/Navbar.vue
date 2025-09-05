@@ -12,6 +12,9 @@
                     <a class="link" href="#blog">Blog</a>
                     <a class="link" href="#location">Location</a>
                     <a class="link" href="#contact">Contact Us</a>
+                    <a class="link">
+                        <router-link to="/latihan" />tes
+                    </a>
                 </div>
                 <ul class="nav-links">
                 </ul>
