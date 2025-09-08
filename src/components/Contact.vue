@@ -14,9 +14,9 @@
 
         <div class="title-2">
           <h2 class="h2">Contact Us</h2>
-          <p class="text"><span>Address</span>Jl. Mawar No. 123, Jakarta Selatan, Indonesia</p>
+          <p class="text"><span>Address</span>Jl. Pucang Kebondalem No. 6, Bawang, Banjarnegara</p>
           <p class="text"><span>Mail</span>support@dagingku.com</p>
-          <p class="text"><span>Phone</span>+62 812 3456 7890</p>
+          <p class="text"><span>Phone</span>+62 895 3582 5524</p>
           <p class="text"><span>Fax ID</span>+62 21 555 1234</p>
         </div>
 
@@ -33,13 +33,13 @@
         <div class="title-4">
           <h2 class="h2">Recent Blog</h2>
           <div class="subtitle">
-            <img src="../assets/blog-img.jpg" alt="Blog Image" />
+            <img src="https://images.unsplash.com/photo-1612156502174-bbbad9882af2?q=80&w=702&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Blog Image" />
             <p class="text">
               Tips memilih daging segar: kenali warna, aroma, dan tekstur untuk memastikan kualitas terbaik bagi hidangan Anda.
             </p>
           </div>
           <div class="subtitle">
-            <img src="../assets/blog-img.jpg" alt="Blog Image" />
+            <img src="https://images.unsplash.com/photo-1612156723470-10f426219f63?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Blog Image" />
             <p class="text">
               Resep sederhana olahan daging sapi yang lezat dan sehat untuk menu keluarga sehari-hari.
             </p>
@@ -108,6 +108,12 @@
     &:hover {
       color: #ffcc70;
       text-decoration: underline;
+    }
+  }
+
+  .title-3 {
+    p {
+        margin: 1rem 0;
     }
   }
 
